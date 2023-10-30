@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Noto+Serif+Lao:wght@500&family=Poppins:wght@500&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    background-color: #7d2ae8;
+
+}
+.wrapper{
+    position: relative;
+    width: 600px;
+    height:400px ;
+    background-color: #fff;
+    align-items: center;
+    border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+i{
+    font-size: 7.5em;
+    color: #7d2ae8;
+    border: 5px solid transparent;
+    outline: #7d2ae8 3px solid;
+    border-radius: 50%;
+
+
+}
+h2{
+    font-size: 3em;
+    color: #7d2ae8;
+    margin: 15px 0px;
+
+
+}
+.btn-group{
+    width:100% ;
+    height:40px ;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+
+
+}
+button{
+    position: absolute;
+    width: 150px;
+    height:inherit;
+    font-size: 1.2em;
+    font-weight: 600;
+    border-radius: 30px;
+    border: 2px solid #7d2ae8;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+}
+
+button:nth-child(1){
+    margin-left: 200px;
+    background: #fff;
+}
+button:nth-child(2){
+    margin-right: 200px;
+    background: #7d2ae8;
+}
+/* #footer{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    text-align: end;
+    padding-bottom: 1px;
+    margin-bottom: 1px;
+
+} */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+}
